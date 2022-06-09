@@ -45,12 +45,12 @@ FIGURE-04
 A Parallel in Parallel out (PIPO) shift register is used as a temporary storage device and like SISO Shift register it acts as a delay element.
 
 ## PROCEDURE:
-/* write all the steps invloved */
-
-
-
-
-
+1. Start the module using module projname().
+2. Assign inputs and outputs.
+3. Declare a temporary register.
+4. Declare positive edge Clock.
+5. Use begin and end appropriately based on the shift register used
+6. End the module.
 
 ## PROGRAM :
 ```
